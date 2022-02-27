@@ -99,3 +99,13 @@ section article a img {
   padding: 0.25;
   text-align: center;
 } */
+
+section article {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon {
+  border-radius: none;
+  padding-left: 160px;
+}
