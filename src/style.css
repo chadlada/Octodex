@@ -54,3 +54,26 @@ nav ul {
   color: black;
   /* padding-left: 10px; */
 }
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+}
+
+main article {
+  display: flex;
+  padding: 1rem;
+  flex-wrap: wrap;
+  padding-top: 1.5rem;
+}
+
+main article ul {
+  padding: 1rem 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+}
