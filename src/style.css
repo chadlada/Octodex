@@ -33,3 +33,24 @@ header ul {
   display: flex;
   font-size: 15px;
 }
+
+nav ul {
+  display: flex;
+  align-items: center;
+  padding-top: 1rem;
+  padding-right: 33px;
+  /* justify-content: space-between; */
+}
+.twitgit {
+  margin-top: 1rem;
+  font-size: 14px;
+  text-align: right;
+  padding-right: 8px;
+}
+
+.octo {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  /* padding-left: 10px; */
+}
