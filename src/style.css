@@ -109,3 +109,10 @@ section article {
   border-radius: none;
   padding-left: 160px;
 }
+
+footer {
+  display: flex;
+  justify-content: center;
+  border-top: 0.75px solid grey;
+  font-size: 13px;
+}
