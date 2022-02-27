@@ -116,3 +116,25 @@ footer {
   border-top: 0.75px solid grey;
   font-size: 13px;
 }
+
+/* when the width is less than 375 do this */
+@media all and (max-width: 494px) {
+  header {
+    color: violet;
+  }
+
+  header > ul {
+    padding-right: 4rem;
+  }
+
+  /* don't show 'backtogithub' */
+  header .github {
+    display: none;
+  }
+}
+
+@media all and (min-width: 400px) {
+  body {
+    /* background-color: blueviolet; */
+  }
+}
