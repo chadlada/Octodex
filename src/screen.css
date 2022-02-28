@@ -89,7 +89,6 @@ li a {
 
 section article a img {
   border-radius: 0.75rem;
-  /* padding-top: 20px; */
   border: 0.75px solid lightgray;
 }
 
@@ -103,11 +102,6 @@ section article a img {
 section article {
   display: flex;
   flex-direction: column;
-}
-
-.icon {
-  border-radius: none;
-  padding-left: 160px;
 }
 
 footer {
