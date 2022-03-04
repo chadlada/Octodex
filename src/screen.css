@@ -103,10 +103,10 @@ footer {
   font-size: 13px;
 }
 
-/* when the width is less than 375 do this */
+/* when the width is less than 494 do this */
 @media all and (max-width: 494px) {
   header {
-    color: violet;
+    /* border: 10px solid black; */
   }
 
   header > ul {
